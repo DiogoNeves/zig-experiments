@@ -12,3 +12,7 @@ fn add(a: i32, b: i32) i32 {
 
 const std = @import("std");
 const assert = std.debug.assert;
+
+pub fn main() !void {
+    std.debug.print("Testing", .{});
+}
